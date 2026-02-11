@@ -3,7 +3,7 @@
 A modern, responsive movie search and tracking application built with React. Search for movies, view detailed information, and maintain your personal watchlist with ratings.
 
 ## 🚀 Live Demo
-🔗 https://usepopcorn-react-app-five.vercel.app/
+🔗 https://usepopcorn-react-pearl.vercel.app/
 
 ## ✨ Features
 
