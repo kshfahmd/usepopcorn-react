@@ -7,7 +7,7 @@ import { useKey } from "./useKey";
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const KEY = "b1c17f1bc2be1f65619c774ea488b5ae";
+const KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 export default function App() {
   const [query, setQuery] = useState("");

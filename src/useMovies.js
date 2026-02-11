@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-const KEY = "b1c17f1bc2be1f65619c774ea488b5ae";
+const KEY = import.meta.env.VITE_TMDB_API_KEY;
 export function useMovies(query) {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
